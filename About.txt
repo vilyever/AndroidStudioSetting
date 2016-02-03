@@ -1,0 +1,1 @@
+Put New*** folder to *\Android Studio\plugins\android\lib\templates\gradle-projects
