@@ -2,6 +2,9 @@
 <recipe>
     <instantiate from="root/build.gradle.ftl"
                    to="${escapeXmlAttribute(topOut)}/build.gradle" />
+				   
+	<instantiate from="root/README.md.ftl"
+                   to="${escapeXmlAttribute(topOut)}/README.md" />
 
 <#if makeIgnore>
     <copy from="root/project_ignore"
